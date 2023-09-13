@@ -30,3 +30,24 @@ const myFunction=function(){
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//                       MEMORY
+
+// stack memory(primitive datatype), heap memory(non-primitive datatype)
+
+let myname="ansh"
+let mynewname=myname
+mynewname="raj"
+console.log(myname)
+console.log(mynewname);
+
+let userone={
+    email:"ansh@gmail.com",
+    upi:"user@paytm"
+}
+let usertwo=userone
+usertwo.email="raj@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
