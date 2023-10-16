@@ -1,5 +1,5 @@
 //singleton
-Object.create
+// Object.create
 
 //object literals
 
